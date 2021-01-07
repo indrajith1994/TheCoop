@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"/Users/indrajit/IdeaProjects/cucumbertestone/features/TheCoop.feature"},
         glue={"stepdef","TheCoop"},
+        tags="@Sanity",
         monochrome=true)
 public class runner {
 }
